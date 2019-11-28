@@ -52,5 +52,5 @@ unpunto.vector(otropunto)
 unpunto.distancia(otropunto)
 rect=Rectangulo(unpunto,otropunto)
 rect.base_altura_area()
-
+print("End")
 
