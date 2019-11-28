@@ -25,7 +25,8 @@ class Punto:
   def distancia(self,p): 
     dist=math.sqrt( (p.x-self.x)**2 + (p.y-self.y)**2)
     print(f"Distancia del vector generado : ",dist)
-
+#La clase rectangulo toma dos objetos de tipo punto para definir el 
+#rectangulo
 class Rectangulo: 
     def __init__(self,inicial=Punto(0,0),final=Punto(0,0)): 
       self.inicial=inicial
